@@ -37,3 +37,6 @@ python main.py
 - attention_probs_dropout_prob = 0.3 # The probability of dropout in the hidden layers. 
 #### Jupyter
 A quick implementation Jupyter script, see **cropformer.ipynb**
+
+### Tips
+Any general-purpose computer that supports PyTorch can install this software, including systems such as Windows 10+, Linux, and macOS. On a Linux computer with 32GB of memory and a 16-core processor, the installation time for this software is less than 10 minutes. The running time is closely related to the dataset; generally, on computers with GPU support, training can be completed within 1 hour using datasets of a not too large scale.
