@@ -27,10 +27,10 @@ def main():
 
     x_train_tensor, y_train_tensor, x_test_tensor, y_test_tensor = load_and_process_data(
         is_scaler=config.is_scaler,
-        path_xtrain="/mnt/win/wanghao/maiz/cnn_tran/class/dtt/ori/xtrain_ori.csv",
-        path_xtest="/mnt/win/wanghao/maiz/cnn_tran/class/dtt/ori/xtest_ori.csv",
-        path_ytrain="/mnt/win/wanghao/maiz/cnn_tran/class/dtt/ori/ytrain_ori.csv",
-        path_ytest="/mnt/win/wanghao/maiz/cnn_tran/class/dtt/ori/ytest_ori.csv",
+        path_xtrain="tomato/snp_xtrain_Solyc06T000605.csv",
+        path_xtest="tomato/snp_xtest_Solyc06T000605.csv",
+        path_ytrain="tomato/snp_ytrain_Solyc06T000605.csv",
+        path_ytest="tomato/snp_ytest_Solyc06T000605.csv",
 
     )
 
