@@ -15,7 +15,7 @@ def main():
     is_scaler = False
     batch_size = 128  
     hidden_dim = 128  
-    output_dim = 3  
+    output_dim = 1  
     num_attention_heads = 8
     kernel_size = 3
     best_acc = 0
@@ -27,10 +27,10 @@ def main():
 
     x_train_tensor, y_train_tensor, x_test_tensor, y_test_tensor = load_and_process_data(
         is_scaler=config.is_scaler,
-        path_xtrain="tomato/snp_xtrain_Solyc06T000605.csv",
-        path_xtest="tomato/snp_xtest_Solyc06T000605.csv",
-        path_ytrain="tomato/snp_ytrain_Solyc06T000605.csv",
-        path_ytest="tomato/snp_ytest_Solyc06T000605.csv",
+        path_xtrain="data/tomato/snp_xtrain_Solyc06T000605.csv",
+        path_xtest="data/tomato/snp_xtest_Solyc06T000605.csv",
+        path_ytrain="data/tomato/snp_ytrain_Solyc06T000605.csv",
+        path_ytest="data/tomato/snp_ytest_Solyc06T000605.csv",
 
     )
 
