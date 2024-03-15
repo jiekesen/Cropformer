@@ -14,7 +14,7 @@ print(f'Device used: {DEVICE}')
 is_scaler = False
 batch_size = 128  
 hidden_dim = 128  
-output_dim = 3  
+output_dim = 1  
 num_attention_heads = 8
 kernel_size = 3
 best_acc = 0
