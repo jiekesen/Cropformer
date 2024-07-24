@@ -19,7 +19,7 @@ pip install requests
 To easily reproduce the Cropformer results, run the jupyter file directly
 ```
 #### Processed data
-Due to data size limitation issues, the datasets are available at www.a
+Due to data size limitation issues, the datasets are available at https://figshare.com/articles/dataset/Processed_data/26362735.
 #### Useful options
 
 - DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
