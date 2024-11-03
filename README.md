@@ -22,7 +22,7 @@ Optional: Hardware accelerator supporting PyTorch.
 We provided a pre-packaged Conda environment for directly running Cropformer.
 
 ```bash
-conda env create -f environment.yml
+conda env create -f cropformer.yml
 ```
 #### Processed data
 Due to data size limitation issues, the datasets are available at https://figshare.com/articles/dataset/Processed_data/26362735.
