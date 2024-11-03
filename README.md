@@ -17,9 +17,9 @@ pip install requests
 Python 3.10 / 3.11 /.
 
 Optional: Hardware accelerator supporting PyTorch.
-#### Run
+## Install Cropformer
 ```bash
-To easily reproduce the Cropformer results, run the jupyter file directly
+We provided a pre-packaged Conda environment for directly running Cropformer.
 ```
 #### Processed data
 Due to data size limitation issues, the datasets are available at https://figshare.com/articles/dataset/Processed_data/26362735.
