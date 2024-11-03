@@ -13,7 +13,9 @@ pip3 install torch torchvision torchaudio
 pip install pandas
 pip install requests
 ```
-## Quick Start
+## System requirements
+Python 3.10 / 3.11 /.
+Optional: Hardware accelerator supporting PyTorch.
 #### Run
 ```bash
 To easily reproduce the Cropformer results, run the jupyter file directly
