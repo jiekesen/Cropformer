@@ -35,24 +35,21 @@ You need to provide four input files: X_train.csv, y_train.csv, X_test.csv, and 
 ```bash
 python model.py
 ```
+
+The model file is obtained after training is complete.
+
 Tips： Please note the modification of the file path. Test files are available in the data folder.
 
+### Step 3: Extracting Attentional Weights
 
+Preparing your model file.
 
-- DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-- print(f'Device used: {DEVICE}')
-- is_scaler = False
-- batch_size = 128  # The number of training examples utilized in one iteration. 
-- hidden_dim = 128  # The dimensionality of the hidden layer in a neural network. 
-- num_attention_heads = 8 # The number of attention heads in a multi-head attention mechanism.	
-- kernel_size = 3 #  The size of the convolutional kernel or filter used in a convolutional neural network (CNN).
-- best_acc = 0
-- LR = 0.001 # Learning rate
-- epochs = 300
-- hidden_dropout_prob=0.3 # The number of times the learning algorithm will work through the entire training dataset.
-- attention_probs_dropout_prob = 0.3 # The probability of dropout in the hidden layers. 
-#### Jupyter
-A quick implementation Jupyter script, see **cropformer.ipynb**
+```bash
+python Attention_weight.py
+```
 
+The corresponding weight values are obtained after the run completes.
+
+Tips：Please note the modification of the file path. Test files are available in the data folder.
 ### Tips
 Any general-purpose computer that supports PyTorch can install this software, including systems such as Windows 10+, Linux, and macOS. On a Linux computer with 32GB of memory and a 16-core processor, the installation time for this software is less than 10 minutes. The running time is closely related to the dataset; generally, on computers with GPU support, training can be completed within 1 hour using datasets of a not too large scale.
