@@ -27,7 +27,17 @@ python ped_to_matrix.py
 Upon successful execution, "Success" will be printed, and four files will be generated: X_train.csv, y_train, X_test.csv, and y_test.csv.
 
 Tips： Please note the modification of the file path
-#### Useful options
+### Step 2: Model Training
+Train your own Cropformer.
+
+You need to provide four input files: X_train.csv, y_train.csv, X_test.csv, and y_test.csv.
+
+```bash
+python model.py
+```
+Tips： Please note the modification of the file path. Test files are available in the data folder.
+
+
 
 - DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 - print(f'Device used: {DEVICE}')
