@@ -24,8 +24,15 @@ We provided a pre-packaged Conda environment for directly running Cropformer.
 ```bash
 conda env create -f cropformer.yml
 ```
-#### Processed data
-Due to data size limitation issues, the datasets are available at https://figshare.com/articles/dataset/Processed_data/26362735.
+## Run Cropformer
+We provide a step-by-step guide for running Cropformer.
+
+### Step 1: Data Preprocessing
+Convert the Ped file into a model-compatible CSV format. Test files are available in the data folder.
+
+```bash
+python 
+```
 #### Useful options
 
 - DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
