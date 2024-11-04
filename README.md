@@ -1,18 +1,9 @@
 ## Cropformer
 Cropformer is a genomic selection method based on the architecture of Convolutional Neural Networks (CNNs) combined with a multi-head self-attention mechanism, which is used for crop phenotype prediction.
 
-You can also install the dependent packages by the following commands: 
-```bash
-pip install python==3.8
-pip install numpy
-pip install scipy
-pip install scikit-learn
-pip install pillow
-pip install h5py 
-pip3 install torch torchvision torchaudio
-pip install pandas
-pip install requests
-```
+![image](https://github.com/user-attachments/assets/1d12ec0b-3342-4348-98a9-e3a8518fe73f)
+
+
 ## System requirements
 Python 3.10 / 3.11.
 
