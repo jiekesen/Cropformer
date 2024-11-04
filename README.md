@@ -22,8 +22,9 @@ We provide a step-by-step guide for running Cropformer.
 Convert the Ped file into a model-compatible CSV format. Test files are available in the data folder.
 
 ```bash
-python 
+python ped_to_matrix.py
 ```
+Tips： Please note the modification of the file path
 #### Useful options
 
 - DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
