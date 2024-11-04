@@ -14,7 +14,7 @@ pip install pandas
 pip install requests
 ```
 ## System requirements
-Python 3.10 / 3.11 /.
+Python 3.10 / 3.11.
 
 Optional: Hardware accelerator supporting PyTorch.
 ## Install Cropformer
