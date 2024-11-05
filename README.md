@@ -49,6 +49,8 @@ Tips： Please note the modification of the file path.
 
 Please note that appropriate modifications should be made according to the model parameters of your own training.
 
+Test files are available in the data folder.
+
 ### Step 4: Extracting Attentional Weights
 
 Preparing your model file.
