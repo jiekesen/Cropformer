@@ -40,7 +40,16 @@ The model file is obtained after training is complete.
 
 Tips： Please note the modification of the file path. Test files are available in the data folder.
 
-### Step 3: Extracting Attentional Weights
+### Step 3: Model Prediction
+
+```bash
+python model_prediction.py
+```
+Tips： Please note the modification of the file path.
+
+Please note that appropriate modifications should be made according to the model parameters of your own training.
+
+### Step 4: Extracting Attentional Weights
 
 Preparing your model file.
 
